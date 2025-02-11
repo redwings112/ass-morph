@@ -90,7 +90,7 @@ const Home = () => {
             accessibilityHint="Starts the countdown and shows the video"  
           >  
             <Image  
-              source={require('../../assets/images/activation_button.jpeg')}  
+              source={require('../../assets/images/activation_button.png')}  
               style={styles.activationButtonImage}  
               resizeMode="contain"  
             />  
@@ -154,12 +154,13 @@ const styles = StyleSheet.create({
     marginVertical: 20,  
   },  
   activationButtonImage: {  
-    width: 200,  
-    height: 100,  
-    marginTop: 20,  
+    width: 380,  
+    height: 220,  
+    marginTop: 150,  
   },  
   errorText: {  
     color: '#FF0000',  
     marginTop: 10,  
   },  
 });
+
